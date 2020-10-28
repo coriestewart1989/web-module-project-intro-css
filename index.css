@@ -1,0 +1,225 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    /* border: 0; */
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* my code starts here*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    border: 1px solid grey;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #4f4f4f;
+}
+
+header {
+    display: inline;
+    margin: 10%;
+    width: 100%;
+    padding-top: 10rem;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 3px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 3rem;
+    /* margin: 10%; */
+    /* width: 10%; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    letter-spacing: 3px;
+}
+
+.plan {
+    background: #FF764E;
+    margin: 10%;
+}
+
+.learn {
+    background: #5ED3EB;
+    margin: 10%;
+}
+
+.involved {
+    background: #FFCD69;
+    margin: 10%;
+}
+
+.top {
+    display: inline;
+}
+
+.top img {
+    margin-top: 10rem;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    margin-left: 12rem;
+}
+
+.top h1 {
+    font-size: 5rem;
+    width: 40%;
+}
+
+.top p {
+    width: 40%;
+}
+
+.middle {
+    background: #DDB9A3;
+}
