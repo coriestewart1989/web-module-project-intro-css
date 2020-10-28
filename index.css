@@ -86,7 +86,7 @@ audio,
 video {
     margin: 0;
     padding: 0;
-    border: 0;
+    /* border: 0; */
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
@@ -139,6 +139,87 @@ table {
 
 /* my code starts here*/
 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    border: 1px solid grey;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #4f4f4f;
+}
+
+header {
+    display: inline;
+    margin: 10%;
+    width: 100%;
+    padding-top: 10rem;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 3px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 3rem;
+    /* margin: 10%; */
+    /* width: 10%; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    letter-spacing: 3px;
+}
+
 .plan {
     background: #FF764E;
+    margin: 10%;
+}
+
+.learn {
+    background: #5ED3EB;
+    margin: 10%;
+}
+
+.involved {
+    background: #FFCD69;
+    margin: 10%;
+}
+
+.top {
+    display: inline;
+}
+
+.top img {
+    margin-top: 10rem;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    margin-left: 12rem;
+}
+
+.top h1 {
+    font-size: 5rem;
+    width: 40%;
+}
+
+.top p {
+    width: 40%;
+}
+
+.middle {
+    background: #DDB9A3;
 }
